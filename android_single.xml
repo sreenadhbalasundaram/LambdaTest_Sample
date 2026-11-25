@@ -9,4 +9,11 @@
       <class name="com.lambdaTestApp.android.AndroidApp"/>
     </classes>
   </test> <!-- Test -->
+    <test name="QA App command log replay">
+        <parameter name="device" value="Galaxy.*" />
+        <parameter name="version" value="15" />
+        <classes>
+            <class name="com.lambdaTestApp.android.QAAppCommandLogTest" />
+        </classes>
+    </test>
 </suite> <!-- Suite -->
